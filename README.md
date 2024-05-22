@@ -4,3 +4,4 @@ Daarnaast ben ik bezig met een scriptje maken om mijn leven makkelijker te maken
 
 Foto Transfer Script
 Dit script is ontworpen om mijn foto's gemakkelijk over te zetten naar mijn NAS (Network Attached Storage). Het zorgt ervoor dat mijn foto's veilig en georganiseerd worden opgeslagen.
+Heb nu tijdelijk een script van internet gevonden en een beetje aangepast maar er moet nog aan gewerkt worden
