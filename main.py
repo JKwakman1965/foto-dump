@@ -6,10 +6,8 @@ from ftplib import FTP
 def connect_to_wifi(ssid, bssid, encoded_password):
     """
     Verbinding maken met een Wi-Fi-netwerk met behulp van ssid, bssid en een Base64-gecodeerd wachtwoord.
-    Dit script is specifiek voor Linux en gebruikt nmcli.
     """
     try:
-        # Decodeer het wachtwoord van Base64
         wifi_password = base64.b64decode(encoded_password).decode('utf-8')
 
         # Voeg een nieuwe verbinding toe
@@ -44,8 +42,8 @@ def upload_photos_to_ftp(ftp_server, username, password, local_folder, remote_fo
 
 if __name__ == "__main__":
     # Wi-Fi instellingen
-    ssid = "Zy_private_TTCTYF"
-    bssid = "A0:E4:CB:6E:42:C4"
+    ssid = "draadloos"
+    bssid = "00:11:2F:A2:97:67"
     encoded_wifi_password = "RGl0X2lzX25pZXRfaGVlbF92ZWlsaWc=
 
     # FTP instellingen
