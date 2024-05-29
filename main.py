@@ -44,7 +44,7 @@ if __name__ == "__main__":
     # Wi-Fi instellingen
     ssid = "draadloos"
     bssid = "00:11:2F:A2:97:67"
-    encoded_wifi_password = "RGl0X2lzX25pZXRfaGVlbF92ZWlsaWc=
+    encoded_wifi_password = "RGl0X2lzX25pZXRfaGVlbF92ZWlsaWc="
 
     # FTP instellingen
     ftp_server = "Nog FTP server maken"
